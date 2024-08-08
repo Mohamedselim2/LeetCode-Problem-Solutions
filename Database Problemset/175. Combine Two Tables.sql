@@ -1,6 +1,6 @@
--- 175.Combine Two Tables Solution
+-- 175. Combine Two Tables
 
 SELECT P.firstName, P.lastName, city, state FROM Person AS P
 LEFT JOIN Address AS A ON A.personId = P.personId
 
--- Sloved by Meem-Seen.
+-- Solved By Meem-Seen
